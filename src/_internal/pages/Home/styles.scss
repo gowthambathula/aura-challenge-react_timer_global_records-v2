@@ -1,0 +1,23 @@
+.aura-home {
+  .aura-home-cards {
+    display: flex;
+    margin-top: 56px;
+  }
+
+  .aura-home-card {
+    box-shadow: 0 4px 16px RGBA(0 0 0 / 8%);
+    border-radius: 16px;
+    height: 170px;
+    transition: all 0.3s ease-in-out;
+    padding: 32px;
+    width: 291px;
+
+    &:first-child {
+      margin-right: 24px;
+    }
+
+    &:hover {
+      transform: translateY(-6px);
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.aura-timer {
+  .aura-page-content {
+    display: grid;
+    justify-items: center;
+    max-width: 350px;
+    row-gap: 16px;
+  }
+
+  .aura-timer-clock {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .aura-button {
+    &:first-child {
+      margin-right: 12px;
+    }
+  }
+
+  // Expired
+  .aura-expired-emoji {
+    font-size: 80px;
+    text-align: center;
+  }
+
+  .aura-expired-text {
+    font-size: 24px;
+  }
+}

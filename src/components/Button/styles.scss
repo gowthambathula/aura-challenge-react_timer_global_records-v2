@@ -1,0 +1,28 @@
+$color-black: #101010;
+
+.aura-button {
+  background-color: $color-black;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10.5px 36px;
+
+  &:hover {
+    background-color: #404040;
+  }
+
+  &:active {
+    background-color: $color-black;
+  }
+
+  &:focus {
+    outline: 2px solid #e64850;
+  }
+
+  &[disabled] {
+    background-color: $color-black;
+    opacity: 30%;
+  }
+}

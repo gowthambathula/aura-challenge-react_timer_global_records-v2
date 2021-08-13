@@ -1,0 +1,38 @@
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: gordita, sans-serif;
+  color: #312c2c;
+  margin: 0;
+  overscroll-behavior-y: none;
+  padding: 0;
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+}
+
+a {
+  color: #312c2c;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+.aura-page {
+  padding: 32px;
+}
+
+.aura-page-content {
+  margin-top: 56px;
+}

@@ -1,0 +1,33 @@
+.aura-record {
+  column-gap: 24px;
+  display: grid;
+  grid-template-columns: 35px auto 1fr;
+  margin-top: 12px;
+
+  .aura-record-ranking {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .aura-record-image-container {
+    max-height: 150px;
+    max-width: 150px;
+  }
+
+  .aura-record-image {
+    height: 100%;
+    width: 100%;
+  }
+
+  .aura-record-details-record {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .aura-record-details-artist {
+    color: #909090;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 8px;
+  }
+}
